@@ -12,3 +12,8 @@ function addMessage() {
   function clearMessage() {
     document.getElementById("text-input").value = "";
   }
+
+  function clearList() {
+    let ul = document.getElementById("list");
+    while(ul.firstChild) ul.removeChild(ul.firstChild);
+  }
