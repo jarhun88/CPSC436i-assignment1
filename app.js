@@ -1,6 +1,8 @@
 function addMessage() {
-     let text = document.getElementById("text-input").value; //.value gets input values
+     let text = document.getElementById("text-input").value; 
      console.log(text)
+     if (text === "") 
+      return
 
      let li = document.createElement("li")
      li.className = 'msg';
