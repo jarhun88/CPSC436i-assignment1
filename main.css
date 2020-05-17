@@ -75,6 +75,13 @@ body {
   display: inline-block;
 }
 
+.close {
+  cursor:pointer;
+  float: right;
+  /* position: absolute; */
+  /* margin-left: 100%; */
+}
+
 input {
   margin: 5px;
 }
@@ -90,6 +97,8 @@ li {
   flex-wrap: wrap;
   text-align: center;
   /* width: 50%; */
+  height: 24px;
+  font-size: 20px;
 }
 
 
